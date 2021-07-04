@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+	   background:#1111;
+	   font-family: sans-serif; 
+       display;flex; 
+      justify-content:center;
+      align-items:center;
+      
+}
+
+   
+   
+.main{
+	  width:150px;
+	  margin:7% auto;
+	  position:relative;
+	  background-color:#1111;
+}
+ 
+.slider-ui{
+  -webkit-appearance:none;
+width:150px;
+height: 30px;
+background-color:white;
+border-radius:3px;
+-webkit-transition:.2s;
+cursor:pointer;
+
+         }
+	
+  .slider-ui::-webkit-slider-thumb{
+      -webkit-appearance:none;
+	  appearance:none;
+	  width:20x;
+	  height:10px;
+	  background: #0000;
+      border-radius:10px;
+	  cursor:pointer;
+    }
+	.selector{
+		height:104px;
+		width:30;
+		position:absolute;
+		bottom:-20%;
+	    left:50%;
+		transform: translatex(-50%);
+		z-index:2;
+	}
+		.selectBtn{
+			height:48%;
+			width:48%;
+			background-size:cover;
+		    background-position:center;
+			border-radius:50%;
+			position:absolute;
+			bottom:0;
+		
+		}
+		.motor1::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top: 5%;
+}
+
+.motor1::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 5%;
+}
+
+
+.motor2::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top:20%;
+}
+
+.motor2::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 20%;
+}
+
+
+.motor4::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top:50%;
+}
+
+.motor3::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 35%;
+}
+
+.motor5::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top:65%;
+}
+
+.motor4::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 50%;
+}
+
+
+.motor6::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top:80%;
+}
+
+.motor5::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 65%;
+}
+
+
+.motor3::after{
+    content: '180';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 96%;
+    top:35%;
+}
+
+.motor6::before{
+    content: '0';
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -11%;
+    top: 80%;
+}
+		
+		
+	
+	
